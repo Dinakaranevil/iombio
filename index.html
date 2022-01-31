@@ -1,0 +1,624 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+  <title>Hello, world!</title>
+</head>
+
+<body>
+  <div class="d-flex align-items-center  " style="padding-top:4%;padding-bottom:4%;">
+    <div class="container ">
+      <div class="card bg-light mb-4" style="border-radius: 1.25rem;padding:2% 5%">
+        <h2>
+          <center>Gut Assessment Questionnaire </center>
+        </h2>
+        <h4 style="font-size: 1.3rem;">Please fill out the physiological and demographic information below as
+          thoughtfully
+          as possible. </h4>
+        <form method="POST"
+          action=https://script.google.com/macros/s/AKfycbxj6YFktxnSIKscJBCgU4MrjyLC66_McjHc1fAgUuoEKYvS-2t_d2OzC0li6Ecfi0Iw/exec>
+          <div class="form-outline mb-3">
+          <label for="exampleInputEmail1" class="form-label">Email address<font color="#FF0000">*</font></label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="Email"
+            required>
+          <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+      </div>
+
+      <div class="mb-3">
+        <label for="name" class="form-label">Name<font color="#FF0000">*</font></label>
+        <input type="text" class="form-control" name="Name">
+      </div>
+      <div class="mb-3">
+        <label for="exampleDataList" class="form-label">State<font color="#FF0000">*</font></label>
+        <input class="form-control" list="datalistOptions" id="exampleDataList" placeholder="Type to search..."
+          name="State">
+        <datalist id="datalistOptions">
+          <option value="Andhra Pradesh">Andhra Pradesh</option>
+          <option value="Andaman and Nicobar Islands">Andaman and Nicobar Islands</option>
+          <option value="Arunachal Pradesh">Arunachal Pradesh</option>
+          <option value="Assam">Assam</option>
+          <option value="Bihar">Bihar</option>
+          <option value="Chandigarh">Chandigarh</option>
+          <option value="Chhattisgarh">Chhattisgarh</option>
+          <option value="Dadar and Nagar Haveli">Dadar and Nagar Haveli</option>
+          <option value="Daman and Diu">Daman and Diu</option>
+          <option value="Delhi">Delhi</option>
+          <option value="Lakshadweep">Lakshadweep</option>
+          <option value="Puducherry">Puducherry</option>
+          <option value="Goa">Goa</option>
+          <option value="Gujarat">Gujarat</option>
+          <option value="Haryana">Haryana</option>
+          <option value="Himachal Pradesh">Himachal Pradesh</option>
+          <option value="Jammu and Kashmir">Jammu and Kashmir</option>
+          <option value="Jharkhand">Jharkhand</option>
+          <option value="Karnataka">Karnataka</option>
+          <option value="Kerala">Kerala</option>
+          <option value="Madhya Pradesh">Madhya Pradesh</option>
+          <option value="Maharashtra">Maharashtra</option>
+          <option value="Manipur">Manipur</option>
+          <option value="Meghalaya">Meghalaya</option>
+          <option value="Mizoram">Mizoram</option>
+          <option value="Nagaland">Nagaland</option>
+          <option value="Odisha">Odisha</option>
+          <option value="Punjab">Punjab</option>
+          <option value="Rajasthan">Rajasthan</option>
+          <option value="Sikkim">Sikkim</option>
+          <option value="Tamil Nadu">Tamil Nadu</option>
+          <option value="Telangana">Telangana</option>
+          <option value="Tripura">Tripura</option>
+          <option value="Uttar Pradesh">Uttar Pradesh</option>
+          <option value="Uttarakhand">Uttarakhand</option>
+          <option value="West Bengal">West Bengal</option>
+        </datalist>
+      </div>
+      <div class="mb-3">
+        <label for="city" class="form-label">Mention your city <font color="#FF0000">*</font></label>
+        <input type="text" class="form-control" name="city">
+      </div>
+      <div class="mb-3">
+        <label for="age" class="form-label">Age<font color="#FF0000">*</font></label>
+        <input type="number" class="form-control" name="age">
+
+      </div>
+      <div class="mb-3">
+        <p style="margin-bottom:0.5em;">Gender<font color="#FF0000">*</font>
+        </p>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="Gender" id="exampleRadios1" value="Male">
+          <label class="form-check-label" for="exampleRadios1">
+            Male
+          </label>
+          <br>
+          <input class="form-check-input" type="radio" name="Gender" id="exampleRadios2" value="Female">
+          <label class="form-check-label" for="exampleRadios2">
+            Female
+          </label>
+          <br>
+          <input class="form-check-input" type="radio" name="Gender" id="exampleRadios3" value="Others">
+          <label class="form-check-label" for="exampleRadios3">
+            Others
+          </label>
+        </div>
+      </div>
+      <div class="mb-3">
+        <label for="Profession" class="form-label">Profession<font color="#FF0000">*</font></label>
+        <input type="text" class="form-control" name="Profession">
+      </div>
+      <div class="mb-3">
+        <p style="margin-bottom:0.5em;">What is your total household income?<font color="#FF0000">*</font>
+        </p>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="income" value="Less than ₹5,00,000">
+          <label class="form-check-label" for="exampleRadios1">
+            Less than ₹5,00,000
+          </label>
+          <br>
+          <input class="form-check-input" type="radio" name="income" value="₹5,00,00 - ₹10,00,000">
+          <label class="form-check-label" for="exampleRadios2">
+            ₹5,00,00 - ₹10,00,000
+          </label>
+          <br>
+          <input class="form-check-input" type="radio" name="income" value="₹10,00,000 - ₹20,00,000">
+          <label class="form-check-label" for="exampleRadios3">
+            ₹10,00,000 - ₹20,00,000
+          </label>
+          <br>
+          <input class="form-check-input" type="radio" name="income" value="more than ₹20,00,000">
+          <label class="form-check-label" for="exampleRadios2">
+            more than ₹20,00,000
+          </label>
+          <br>
+        </div>
+      </div>
+      <div class="mb-3">
+        <p style="margin-bottom:0.5em;">Food Habits<font color="#FF0000">*</font>
+        </p>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="Food-Habits" value="Veg">
+          <label class="form-check-label" for="exampleRadios1">
+            Veg
+          </label>
+          <br>
+          <input class="form-check-input" type="radio" name="Food-Habits" value="Non-veg">
+          <label class="form-check-label" for="exampleRadios2">
+            Non-veg
+          </label>
+          <br>
+          <input class="form-check-input" type="radio" name="Food-Habits" value="Ovo-vegetarian">
+          <label class="form-check-label" for="exampleRadios3">
+            Ovo-vegetarian (Eggs)
+          </label>
+          <br>
+          <input class="form-check-input" type="radio" name="Food-Habits" value="Vegan">
+          <label class="form-check-label" for="exampleRadios2">
+            Vegan
+          </label>
+          <br>
+        </div>
+      </div>
+      <div class="mb-3">
+        <p style="margin-bottom:0.5em;">How would you describe your lifestyle? <font color="#FF0000">*</font>
+        </p>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="lifestyle" value="Sedentary">
+          <label class="form-check-label" for="exampleRadios1">
+            Sedentary - tending to spend much time seated; somewhat inactive; couch or desk bound
+          </label>
+          <br>
+          <input class="form-check-input" type="radio" name="lifestyle" value="Active">
+          <label class="form-check-label" for="exampleRadios2">
+            Active - tending to move about frequently; go for walks; regularly running errands
+          </label>
+          <br>
+          <input class="form-check-input" type="radio" name="lifestyle" value="Hyper-active">
+          <label class="form-check-label" for="exampleRadios3">
+            Hyper active - regular exercise (5-7 hrs/week); play sports, cycling, swimming etc.
+          </label>
+          <br>
+        </div>
+      </div>
+
+    </div>
+    <div class="container">
+      <div class="card bg-light mb-4" style="border-radius:1.25rem;padding:2% 5%">
+        <h2>State of Mind/Mood </h2>
+        <div class="mb-3">
+          <p style="margin-bottom:0.5em;">Please tell us mentally, how are you feeling right now? <font color="#FF0000">
+              *</font>
+          </p>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="s1" value="s1-1">
+            <label class="form-check-label" for="exampleRadios1">
+              Depressed, Gloomy, Lonely, Low, Sad, Dull, Lazy, Unenthusiastic </label>
+            <br>
+            <input class="form-check-input" type="radio" name="s1" value="s1-2">
+            <label class="form-check-label" for="exampleRadios2">
+              Angry, Aggressive, Highly Excited, Charged </label>
+            <br>
+            <input class="form-check-input" type="radio" name="s1" value="s1-3">
+            <label class="form-check-label" for="exampleRadios3">
+              Highly Optimistic, Happy, Fresh, Serene, Calm </label>
+            <br>
+            <input class="form-check-input" type="radio" name="s1" value="s1-4">
+            <label class="form-check-label" for="exampleRadios3">
+              Others </label>
+            <br>
+          </div>
+        </div>
+
+        <div class="mb-3">
+          <p style="margin-bottom:0.5em;">How do you respond to a bad experience?<font color="#FF0000">*</font>
+          </p>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="s2" value="s2-1">
+            <label class="form-check-label" for="exampleRadios1">
+              Your immediate response is very loud (yell, scream, argue, lash out, snap, curse your luck/life) </label>
+            <br>
+            <input class="form-check-input" type="radio" name="s2" value="s2-2">
+            <label class="form-check-label" for="exampleRadios2">
+              You feel bad, but react moderately and try to hold your temper to focus on what needs to be done </label>
+            <br>
+            <input class="form-check-input" type="radio" name="s2" value="s2-3">
+            <label class="form-check-label" for="exampleRadios3">
+              You tend to get focused, do not take things personally, try to solve the issue and focus on navigating the
+              situation. </label>
+            <br>
+            <input class="form-check-input" type="radio" name="s2" value="s2-4">
+            <label class="form-check-label" for="exampleRadios3">
+              Others </label>
+            <br>
+          </div>
+        </div>
+
+        <div class="mb-3">
+          <p style="margin-bottom:0.5em;">How stressful is your environment? <font color="#FF0000">*</font>(For E.g.,
+            Stress due to the constant noise caused by the Neighbours or the stress caused due to constant caretaking of
+            someone)</p>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="s3" value="Yes">
+            <label class="form-check-label" for="exampleRadios1">
+              Yes <br>
+              <input class="form-check-input" type="radio" name="s3" value="No">
+              <label class="form-check-label" for="exampleRadios2">
+                no</label>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="container">
+        <div class="card bg-light mb-3" style="border-radius :1.25rem;;padding:2% 5%">
+          <div class="form-group shadow-textarea">
+            <h2>Medical History </h2>
+            <label for="exampleFormControlTextarea6" class="form-label">If you are unwell, then could you describe your
+              symptoms in a few words (For example - acidity, asthma, psoriasis, arthritis, depression, stress, etc.) -
+              please define. <font color="#FF0000">*</font></label>
+            <textarea class="form-control z-depth-1" id="exampleFormControlTextarea6" rows="3"
+              placeholder="Write something here..." name="M1"></textarea>
+          </div>
+          <div class="mb-3">
+            <p style="margin-bottom:0.5em;">Does your family have a history of?<font color="#FF0000">*</font>
+            </p>
+            </p>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" name="M2-1" value="Diabetes ">
+              <label class="form-check-label" for="exampleRadios1">
+                Diabetes </label> <br>
+              <input class="form-check-input" type="checkbox" name="M2-2" value="Blood pressure">
+              <label class="form-check-label" for="exampleRadios2">
+                Blood pressure </label>
+              <br>
+              <input class="form-check-input" type="checkbox" name="M2-3" value=" High Cholesterol ">
+              <label class="form-check-label" for="exampleRadios3">
+                High Cholesterol </label>
+              <br>
+              <input class="form-check-input" type="checkbox" name="M2-4" value="Hypothyroid ">
+              <label class="form-check-label" for="exampleRadios3">
+                Hypothyroid </label>
+              <br>
+              <input class="form-check-input" type="checkbox" name="M2-5" value="Cancer">
+              <label class="form-check-label" for="exampleRadios3">
+                Cancer </label>
+              <br>
+              <input class="form-check-input" type="checkbox" name="M2-6" value="Others">
+              <label class="form-check-label" for="exampleRadios3">
+                Others </label>
+              <br>
+            </div>
+          </div>
+          <div class="mb-3">
+            <label for="name" class="form-label">Do you suffer from chronic conditions like diabetes, blood pressure,
+              cholesterol, hormonal imbalance, IBS? Kindly specify.</p></label>
+            <input type="text" class="form-control" name="Others">
+          </div>
+          <div class="mb-3">
+            <label for="name" class="form-label">Do you have any known allergies? Do you suffer from any seasonal
+              conditions like flu or others? Kindly specify </label>
+            <input type="text" class="form-control" name="allergies">
+          </div>
+          <div class="mb-3">
+            <label for="name" class="form-label">Do you suffer from any food-based allergies? Kindly specify if any.
+            </label>
+            <input type="text" class="form-control" name="f-allergies">
+          </div>
+          <div class="mb-3">
+            <p style="margin-bottom:0.5em;">Do you have any nutritional deficiency?<font color="#FF0000">*</font>
+            </p>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" name="M6-1" value="Vitamin D">
+              <label class="form-check-label" for="exampleRadios1">
+                Vitamin D </label> <br>
+              <input class="form-check-input" type="checkbox" name="M6-2" value="Vitamin B12">
+              <label class="form-check-label" for="exampleRadios2">
+                Vitamin B12</label>
+              <br>
+              <input class="form-check-input" type="checkbox" name="M6-3" value="Calcium ">
+              <label class="form-check-label" for="exampleRadios3">
+                Calcium </label>
+              <br>
+              <input class="form-check-input" type="checkbox" name="M6-4" value="Iron">
+              <label class="form-check-label" for="exampleRadios3">
+                Iron </label>
+              <br>
+              <input class="form-check-input" type="checkbox" name="M6-5" value="None">
+              <label class="form-check-label" for="exampleRadios3">
+                None </label>
+              <br>
+              <input class="form-check-input" type="checkbox" name="M6-6" value="Not aware">
+              <label class="form-check-label" for="exampleRadios3">
+                Not aware </label>
+              <br>
+              <input class="form-check-input" type="checkbox" name="M6-7" value="Others">
+              <label class="form-check-label" for="exampleRadios3">
+                Others</label>
+              <br>
+            </div>
+          </div>
+
+
+        </div>
+
+      </div>
+      <div class="container">
+        <div class="card bg-light mb-3" style="border-radius :1.25rem;;padding:2% 5%">
+          <h2> Habits/Patterns </h2>
+          <div class="mb-3">
+            <p style="margin-bottom:0.5em;"> How has your sleep cycle been in the past 3 months?<font color="#FF0000">*
+              </font>
+            </p>
+
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="Sleep" value="(6-8 hrs)">
+              <label class="form-check-label" for="exampleRadios1">
+                Sound, peaceful and deep sleep (6-8 hrs) <br>
+                <input class="form-check-input" type="radio" name="Sleep" value="(less than 6 hrs)">
+                <label class="form-check-label" for="exampleRadios2">
+                  Disturbed, interrupted and light sleep (less than 6 hrs) </label>
+                <br>
+                <input class="form-check-input" type="radio" name="Sleep" value=" (more
+                than 8 hrs) ">
+                <label class="form-check-label" for="exampleRadios3"> Excessive, prolonged and includes day sleep (more
+                  than 8 hrs) </label>
+                <br>
+                <input class="form-check-input" type="radio" name="Sleep" value="Others">
+                <label class="form-check-label" for="exampleRadios3"> Others </label>
+                <br>
+            </div>
+          </div>
+          <div class="mb-3">
+            <p style="margin-bottom:0.5em;">Do you have any of the following as a regular habit? Select all that apply.
+              <font color="#FF0000">*</font>
+            </p>
+
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" name="H2-1" value="Smoking">
+              <label class="form-check-label" for="exampleRadios1">
+                Smoking <br>
+                <input class="form-check-input" type="checkbox" name="H2-2" value="Drinking">
+                <label class="form-check-label" for="exampleRadios2">
+                  Drinking
+                </label>
+                <br>
+                <input class="form-check-input" type="checkbox" name="H2-3" value="Tobacco">
+                <label class="form-check-label" for="exampleRadios3"> Tobacco in any form
+                </label>
+                <br>
+                <input class="form-check-input" type="checkbox" name="H2-4" value="Any-Form Sugar">
+                <label class="form-check-label" for="exampleRadios3">Any form of food (Eg. Sugar, Fast food, Beverages)
+
+                </label>
+                <br>
+                <input class="form-check-input" type="checkbox" name="H2-5" value="NA">
+                <label class="form-check-label" for="exampleRadios3">NA
+                </label>
+                <br>
+                <input class="form-check-input" type="checkbox" name="H2-6" value="Others">
+                <label class="form-check-label" for="exampleRadios3">Others
+                </label>
+                <br>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <div class="container">
+        <div class="card bg-light mb-3" style="border-radius :1.25rem;;padding:2% 5%">
+          <h2> Constitutional Analysis </h2>
+          <div class="mb-3">
+            <p style="margin-bottom:0.5em;"> Do you struggle with any of these?<font color="#FF0000">*</font>
+            </p>
+
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="C1" value="C1-1">
+              <label class="form-check-label" for="exampleRadios1">
+                Learn/Understand/Focus on a new concept </label> <br>
+              <input class="form-check-input" type="radio" name="C1" value="C1-2">
+              <label class="form-check-label" for="exampleRadios2">
+                Retain most of the things that you have recently learnt/understood </label>
+              <br>
+              <input class="form-check-input" type="radio" name="C1" value="C1-3">
+              <label class="form-check-label" for="exampleRadios3">Recalling names of people or incidents </label>
+              <br>
+              <input class="form-check-input" type="radio" name="C1" value="C1-4">
+              <label class="form-check-label" for="exampleRadios3"> Others </label>
+              <br>
+            </div>
+          </div>
+          <div class="mb-3">
+            <p style="margin-bottom:0.5em;"> How would you describe your learning pattern? <font color="#FF0000">*
+              </font>
+            </p>
+
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="C2" value="C2-1">
+              <label class="form-check-label" for="exampleRadios1">
+                Quick to learn but I can soon forget. I like to study many things but have difficulty retaining focus. I
+                learn faster by listening. <br>
+              </label><br>
+              <input class="form-check-input" type="radio" name="C2" value="C2-2">
+              <label class="form-check-label" for="exampleRadios2">
+                I am well-organized, focused, goal oriented, I learn best by reading and with visuals. </label>
+              <br>
+              <input class="form-check-input" type="radio" name="C2" value="C2-3">
+              <label class="form-check-label" for="exampleRadios3">I don't learn as quickly as some people, but I have
+                excellent retention and long memory.
+              </label>
+              <br>
+
+            </div>
+          </div>
+          <div class="mb-3">
+            <p style="margin-bottom:0.5em;">How will you describe your body frame? <font color="#FF0000">*</font>
+            </p>
+           <div class="form-check">
+              <input class="form-check-input" type="radio" name="C3" value="C3-1">
+              <label class="form-check-label" for="exampleRadios1">
+                Slim, light frame, tall or short, bony </label>
+
+              <br>
+              <input class="form-check-input" type="radio" name="C3" value="C3-2">
+              <label class="form-check-label" for="exampleRadios2">
+                Medium, Average development
+              </label>
+              <br>
+              <input class="form-check-input" type="radio" name="C3" value="C3-3">
+              <label class="form-check-label" for="exampleRadios3">
+                Well-developed body, larger curvy frames, stocky, stout, wide </p>
+
+              </label>
+              <br>
+
+            </div>
+          </div>
+          <div class="mb-3">
+            <p style="margin-bottom:0.5em;"> How would you best describe your body temperature? <font color="#FF0000">*
+              </font>
+            </p>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="C4" value="C4-1">
+              <label class="form-check-label" for="exampleRadios1">
+                I feel cold easily and am usually cold to touch
+              </label><br>
+              <input class="form-check-input" type="radio" name="C4" value="C4-2">
+              <label class="form-check-label" for="exampleRadios2">
+                I feel hot easily and am usually warm to touch
+              </label>
+              <br>
+              <input class="form-check-input" type="radio" name="C4" value="C4-3">
+              <label class="form-check-label" for="exampleRadios3">
+                I sweat easily and can feel damp or moist to touch </p>
+
+              </label>
+              <br>
+
+            </div>
+          </div>
+          <div class="mb-3">
+            <p style="margin-bottom:0.5em;"> How would you best describe your sweat/odour? <font color="#FF0000">*
+              </font></p>
+
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="C5" value="C5-1">
+              <label class="form-check-label" for="exampleRadios1">
+                Odourless, scanty
+              </label><br>
+              <input class="form-check-input" type="radio" name="C5" value="C5-2">
+              <label class="form-check-label" for="exampleRadios2">
+                Strong smell, profuse, hot
+              </label>
+              <br>
+              <input class="form-check-input" type="radio" name="C5" value="C5-3">
+              <label class="form-check-label" for="exampleRadios3">
+                Pleasant smell, moderate when exercising, cold
+
+              </label>
+              <br>
+
+            </div>
+          </div>
+
+          <div class="mb-3">
+            <p style="margin-bottom:0.5em;"> How would you describe your metabolism? <font color="#FF0000">*</font>
+            </p>
+
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="C6" value="C6-1">
+              <label class="form-check-label" for="exampleRadios1">
+                Fast metabolism, difficult to gain weight
+              </label><br>
+              <input class="form-check-input" type="radio" name="C6" value="C6-2">
+              <label class="form-check-label" for="exampleRadios2">
+                Balanced metabolism, can gain weight and lose weight easily
+              </label>
+              <br>
+              <input class="form-check-input" type="radio" name="C6" value="C6-3">
+              <label class="form-check-label" for="exampleRadios3">
+                Slow metabolism, difficult to lose weight
+              </label>
+              <br>
+
+            </div>
+          </div>
+          <div class="mb-3">
+            <p style="margin-bottom:0.5em;">How would you describe your appetite? <font color="#FF0000">*</font></p>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="C7" value="C7-1">
+              <label class="form-check-label" for="exampleRadios1">Erratic - I am irregular eater with fluctuating
+                appetite and habits </label>
+              <br>
+              <input class="form-check-input" type="radio" name="C7" value="C7-2">
+              <label class="form-check-label" for="exampleRadios2">
+                Strong – I like to eat regularly and can become irritable when hungry
+              </label>
+              <br>
+              <input class="form-check-input" type="radio" name="C7" value="C7-3">
+              <label class="form-check-label" for="exampleRadios3">
+
+                Moderate but steady- I am often not hungry till mid-morning
+              </label>
+              <br>
+
+            </div>
+          </div>
+          <div class="mb-3">
+            <p style="margin-bottom:0.5em;"> How would you describe your feces(stool)? <font color="#FF0000">*</font>
+            </p>
+
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="C8" value="C8-1">
+              <label class="form-check-label" for="exampleRadios1">
+                Dry, hard, scanty, painful or difficult, gas (constipation)
+
+              </label><br>
+              <input class="form-check-input" type="radio" name="C8" value="C8-2">
+              <label class="form-check-label" for="exampleRadios2">
+                Bulk quantity, at times unformed, yellowish, burning (diarrhea)
+              </label>
+              <br>
+              <input class="form-check-input" type="radio" name="C8" value="C8-3">
+              <label class="form-check-label" for="exampleRadios3">
+                Moderate, solid, pale, mucous in stool (if constipated stools are still soft)
+
+              </label>
+              <br>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+
+
+
+
+    <button type="submit">Send</button>
+    </form><br>
+  </div>
+
+
+  <!-- Optional JavaScript; choose one of the two! -->
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+  </script>
+
+
+  <!-- Option 2: Separate Popper and Bootstrap JS -->
+  <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>
